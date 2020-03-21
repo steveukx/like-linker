@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "docker:bash": "docker-compose run jekyll bash",
+        "build:containers": "docker-compose build",
+        "kill": "docker-compose --stop --force -v"
+    }
+}
